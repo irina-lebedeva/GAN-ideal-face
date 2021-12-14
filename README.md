@@ -1,5 +1,5 @@
 # GAN semantics for personalized face beauty synthesis and beautification
-
+![example](examples/intro.png)
 The framework generate the face based on personal beauty preferences of an individual. MEBeauty dataset is used for this purpose.
 The personalized face beautification is also implemented.
 
@@ -46,7 +46,9 @@ Adjust the number of training samples and number of top rated images
                      --folder [the rated ID]
 ```
 * only after successfully conducted step 4
-* 
+Upload the image for beautification and ideal face of the rater into one folder and rune the code
+
+
 Based on **In-Domain GAN Inversion for Real Image Editing**
 
 [[Paper](https://arxiv.org/pdf/2004.00049.pdf)] [[Official Code](https://github.com/genforce/idinvert)] [[StyleGAN2 Pytorch](https://github.com/rosinality/stylegan2-pytorch)]
